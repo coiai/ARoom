@@ -28,6 +28,8 @@
   --max-width: 1200px;
   --radius: 16px;
   --radius-full: 9999px;
+  --bottom-nav-height: 140px;
+  --glass-bg: rgba(255, 255, 255, 0.72);
 
   /* Fonts */
   --sans: 'Noto Sans JP', Helvetica, 'Helvetica Neue', 'Hiragino Sans', sans-serif;
@@ -56,6 +58,7 @@
     --card-bg: #161617;
 
     --border: #2C2C2E;
+    --glass-bg: rgba(0, 0, 0, 0.72);
   }
 }
 
@@ -72,9 +75,8 @@ body {
 }
 
 #root {
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
+  height: 100dvh;
+  overflow: hidden;
 }
 
 /* === Typography === */
