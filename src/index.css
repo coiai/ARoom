@@ -1,0 +1,131 @@
+/* === coiai Design System === */
+
+:root {
+  /* Brand Colors */
+  --navy: #2434A9;
+  --navy-light: #4558CC;
+  --navy-tint: rgba(36, 52, 169, 0.08);
+
+  /* Text */
+  --text: #1E1E1F;
+  --text-sub: #6C6C6D;
+  --heading: #2F4E8F;
+
+  /* Backgrounds */
+  --bg: #FFFFFF;
+  --bg-alt: #F5F5F7;
+  --card-bg: #F5F5F7;
+
+  /* Borders */
+  --border: #E5E5EA;
+
+  /* Accent (use sparingly, < 5% of screen) */
+  --accent-red: #E83323;
+  --accent-yellow: #FBEC4F;
+  --accent-green: #60D03E;
+
+  /* Layout */
+  --max-width: 1200px;
+  --radius: 16px;
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --sans: 'Noto Sans JP', Helvetica, 'Helvetica Neue', 'Hiragino Sans', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+
+  font: 16px/1.8 var(--sans);
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --navy: #7B8FE0;
+    --navy-light: #96A6E8;
+    --navy-tint: rgba(123, 143, 224, 0.1);
+
+    --text: #F5F5F7;
+    --text-sub: #86868B;
+    --heading: #9BAFD4;
+
+    --bg: #000000;
+    --bg-alt: #161617;
+    --card-bg: #161617;
+
+    --border: #2C2C2E;
+  }
+}
+
+/* === Reset === */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Typography === */
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 64px;
+  color: var(--text);
+}
+
+h2 {
+  font-size: 56px;
+  color: var(--heading);
+}
+
+h3 {
+  font-size: 40px;
+  color: var(--heading);
+}
+
+h4 {
+  font-size: 24px;
+  color: var(--heading);
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 32px; }
+  h3 { font-size: 24px; }
+  h4 { font-size: 20px; }
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+a {
+  color: var(--navy);
+  text-decoration: none;
+}
