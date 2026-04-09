@@ -19,6 +19,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
     iconColor: '#e8875b',
     modelUrl: '/models/lounge-chair.glb',
+    iosSrc: '/models/lounge-chair.usdz',
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
     iconColor: '#6bb8b2',
     modelUrl: '/models/dining-table.glb',
+    iosSrc: '/models/dining-table.usdz',
   },
   {
     id: 3,
@@ -41,6 +43,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)',
     iconColor: '#c47dbe',
     modelUrl: '/models/floor-sofa.glb',
+    iosSrc: '/models/floor-sofa.usdz',
   },
   {
     id: 4,
@@ -52,6 +55,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #fff9c4 0%, #f9a825 100%)',
     iconColor: '#d4940a',
     modelUrl: '/models/pendant-light.glb',
+    iosSrc: '/models/pendant-light.usdz',
   },
   {
     id: 5,
@@ -63,6 +67,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #c3dafe 0%, #a7f3d0 100%)',
     iconColor: '#6b9fc4',
     modelUrl: '/models/open-shelf.glb',
+    iosSrc: '/models/open-shelf.usdz',
   },
   {
     id: 6,
@@ -74,6 +79,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
     iconColor: '#9d7dcc',
     modelUrl: '/models/flower-vase.glb',
+    iosSrc: '/models/flower-vase.usdz',
   },
   {
     id: 7,
@@ -85,6 +91,7 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)',
     iconColor: '#6fa864',
     modelUrl: '/models/work-desk.glb',
+    iosSrc: '/models/work-desk.usdz',
   },
   {
     id: 8,
@@ -96,5 +103,6 @@ export const furniture = [
     gradient: 'linear-gradient(135deg, #ffeaa7 0%, #dfe6e9 100%)',
     iconColor: '#c9a73f',
     modelUrl: '/models/arm-chair.glb',
+    iosSrc: '/models/arm-chair.usdz',
   },
 ];

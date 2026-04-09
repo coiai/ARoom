@@ -43,6 +43,7 @@ export default function Viewer({ furniture }) {
       <model-viewer
         ref={viewerRef}
         src={furniture.modelUrl}
+        ios-src={furniture.iosSrc}
         ar
         ar-modes="webxr scene-viewer quick-look"
         camera-controls
