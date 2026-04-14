@@ -52,6 +52,7 @@ export default function Viewer({ furniture }) {
         shadow-intensity="1"
         shadow-softness="0.5"
         exposure="1"
+        {...(furniture.modelScale ? { scale: furniture.modelScale } : {})}
         style={{
           width: '100%',
           height: '100%',

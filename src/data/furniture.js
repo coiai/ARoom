@@ -8,6 +8,7 @@ export const categories = [
   { id: 'decor', label: '装飾' },
 ];
 
+// TODO: モデルの3Dスケールが不統一。正しいスケールで再書き出しして modelScale を削除する
 export const furniture = [
   {
     id: 1,
@@ -20,6 +21,7 @@ export const furniture = [
     iconColor: '#e8875b',
     modelUrl: '/models/lounge-chair.glb',
     iosSrc: '/models/lounge-chair.usdz',
+    modelScale: '0.0055 0.0055 0.0055', // TODO: モデルがcm単位で作成されている。正しいスケールで再書き出しする
   },
   {
     id: 2,
@@ -44,6 +46,7 @@ export const furniture = [
     iconColor: '#c47dbe',
     modelUrl: '/models/floor-sofa.glb',
     iosSrc: '/models/floor-sofa.usdz',
+    modelScale: '0.1146 0.1146 0.1146', // TODO: モデルのスケールが不正。正しいスケールで再書き出しする
   },
   {
     id: 4,
@@ -56,6 +59,7 @@ export const furniture = [
     iconColor: '#d4940a',
     modelUrl: '/models/pendant-light.glb',
     iosSrc: '/models/pendant-light.usdz',
+    modelScale: '0.007626 0.007626 0.007626', // TODO: モデルのスケールが不正。正しいスケールで再書き出しする
   },
   {
     id: 5,
@@ -68,6 +72,7 @@ export const furniture = [
     iconColor: '#6b9fc4',
     modelUrl: '/models/open-shelf.glb',
     iosSrc: '/models/open-shelf.usdz',
+    modelScale: '0.001 0.001 0.001', // TODO: モデルがmm単位で作成されている。正しいスケールで再書き出しする
   },
   {
     id: 6,
